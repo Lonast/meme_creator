@@ -1,0 +1,23 @@
+.imgCard {
+  height: 300px;
+  width: 230px;
+  overflow: hidden;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.7);
+  transition: 0.2s;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imgCard__img {
+  height: 100%;
+}
+.imgCard:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 500px) {
+  .imgCard {
+    width: 90%;
+  }
+}

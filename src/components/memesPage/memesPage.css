@@ -1,0 +1,36 @@
+.memesPage {
+  display: grid;
+  width: 100%;
+  padding-top: 140px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.memeContainer {
+  width: 100%;
+  min-height: 100vh;
+}
+.arrow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+.arrow__button {
+  background-color: #21b8ed;
+  padding: 7px;
+  width: 40px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: white;
+}
+@media (max-width: 1100px) {
+  .memesPage {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 200px;
+  }
+}
+@media (max-width: 500px) {
+  .memesPage {
+    grid-template-columns: 1fr;
+  }
+}

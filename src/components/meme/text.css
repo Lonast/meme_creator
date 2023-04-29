@@ -1,0 +1,43 @@
+.text {
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 1.5rem;
+  max-width: 400px;
+}
+.text > h1 {
+  font-size: 3rem;
+}
+.text h3 {
+  margin-top: 5px;
+}
+.text__color-colors {
+  display: flex;
+}
+.color {
+  border: 1px solid black;
+  width: 30px;
+  border-radius: 5px;
+  margin-right: 2px;
+  height: 30px;
+}
+input[type="radio"] {
+  width: 20px;
+  height: 25px;
+  margin-right: 10px;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.black {
+  background-color: black;
+}
+.color__form {
+  display: flex;
+}

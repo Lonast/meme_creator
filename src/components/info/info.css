@@ -1,0 +1,14 @@
+.infoPage {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  padding-top: 90px;
+  margin: auto;
+}
+.infoPage__header {
+  font-size: 4rem;
+  color: #21b8ed;
+}
+.infoPage__text {
+  font-size: 2rem;
+}

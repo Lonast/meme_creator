@@ -1,0 +1,68 @@
+.yourMeme {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  color: #21b8ed;
+  font-weight: bold;
+}
+
+.dropArea {
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 840px;
+  height: 230px;
+  border-radius: 20px;
+  transition: 0.2s;
+  border: 3px dashed #21b8ed;
+}
+.leaveArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 7rem;
+  width: 1200px;
+  height: 870px;
+  border-radius: 20px;
+  border: 3px dashed #21b8ed;
+  transition: 0.2s;
+}
+.orangeText {
+  color: rgb(255, 166, 0);
+  text-decoration: underline;
+  transition: 0.2s;
+  text-underline-offset: 15px;
+}
+.greenText {
+  color: rgb(84, 230, 0);
+  transition: 0.2s;
+  text-decoration: underline;
+  text-underline-offset: 30px;
+}
+.fileInput {
+  display: none;
+}
+.fileLable {
+  font-size: 4rem;
+  background-color: #21b8ed;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+@media (max-width: 630px) {
+  .dropArea {
+    font-size: 3rem;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+@media (max-width: 520px) {
+  .dropArea {
+    font-size: 2rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 150px;
+  }
+}
