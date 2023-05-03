@@ -1,6 +1,6 @@
 {
-  "homepage": "http://Lonast.github.io/meme_creator",
   "name": "meme_genarator",
+  "homepage": "https://Lonast.github.io/meme_creator/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
