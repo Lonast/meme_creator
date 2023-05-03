@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/meme_creator/static/css/main.1ae5ffcf.css",
+    "main.js": "/meme_creator/static/js/main.6806328c.js",
+    "static/media/pikachu.png": "/meme_creator/static/media/pikachu.323631587847e5805291.png",
+    "static/media/troll.svg": "/meme_creator/static/media/troll.ad571f0a49ecaca45b1cc890e1ab2aed.svg",
+    "static/media/user.svg": "/meme_creator/static/media/user.a1c4d4a2ff7e599bd1514c8d0750d021.svg",
+    "index.html": "/meme_creator/index.html",
+    "main.1ae5ffcf.css.map": "/meme_creator/static/css/main.1ae5ffcf.css.map",
+    "main.6806328c.js.map": "/meme_creator/static/js/main.6806328c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ae5ffcf.css",
+    "static/js/main.6806328c.js"
+  ]
+}
