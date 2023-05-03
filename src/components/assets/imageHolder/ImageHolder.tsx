@@ -233,8 +233,8 @@ const ImageHolder = (props: ImageHolderTypes) => {
             <ul>
               {par.map((item) => {
                 return (
-                  <>
-                    <div className="list__item" key={uuid()}>
+                  <div key={uuid()}>
+                    <div className="list__item">
                       <li
                         onClick={() => {
                           setTextStyle({
@@ -261,7 +261,7 @@ const ImageHolder = (props: ImageHolderTypes) => {
                       </button>
                     </div>
                     <hr />
-                  </>
+                  </div>
                 );
               })}
             </ul>
